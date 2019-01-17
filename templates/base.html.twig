@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="{{ asset('build/bootstrap/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+        <link rel="stylesheet" href="{{ asset('build/fonts/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/css/styles.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/css/Pretty-Footer.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css') }}">
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Menu <img src="{{ asset('build/') }}assets/img/gastronomie-pizza-logo.jpg" id="logo"></a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" role="presentation"><a href="#">Contact </a></li>
+                    <li role="presentation"><a href="#">Information </a></li>
+                    <li role="presentation"><a href="#">Login </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="promo">
+        <div class="jumbotron">
+            <h1>La GASTRO PIZZA</h1>
+            <p>Une des caractéristiques de la compagnie est son&nbsp;<strong>service drive</strong>. Les clients peuvent se garer à proximité d’une Gastro Pizza, et se faire servir sans même sortir de leur véhicule. Pour cela, des «&nbsp;hommes panneaux&nbsp;»
+                prennent et déposent les commandes. </p>
+            <p><a class="btn btn-info btn-lg" role="button" href="#">Learn more</a></p>
+        </div>
+    </div>
+    <div class="container site-section" id="welcome">
+        <h1>Welcome to my restaurant</h1>
+        <p>Gastronomy Pizza is a fast food chain in Madagascar. It was created in 2001 by its current CEO, Ambinintsoa Randrianaivo. She is known for her pizzas cooked over a wood fire in GM and PM format. Since then, she has expanded her activities in the
+            creation of new fast food products. </p>
+    </div>
+    <div class="dark-section">
+        <div class="container site-section" id="why">
+            <h1>Welcome to my restaurant</h1>
+            <div class="row">
+                <div class="col-md-4 item"><i class="fa fa-product-hunt"></i>
+                    <h2><strong>Produits Gastro Pizza</strong> </h2>
+                    <p><strong>Pizzas,Pack Bomba (sandwich, hamburger, potatoes, boisson),Assiette KebabAssiette Big Love,Sandwich Kebab,Sandwich Jambon FromageHamburger,Jus naturelGlace,Poongy,P’tit pot,SmoothieGranité,Frites,GratinFrites en barquette,Soupe Tamatave,Mine Sao</strong>                        </p>
+                </div>
+                <div class="col-md-4 item"><i class="fa fa-star-o"></i>
+                    <h2>Points de vente et drive </h2>
+                    <p><strong>Une des caractéristiques de la compagnie est son&nbsp;service drive. Les clients peuvent se garer à proximité d’une Gastro Pizza, et se faire servir sans même sortir de leur véhicule. Pour cela, des «&nbsp;hommes panneaux&nbsp;» prennent et déposent les commandes.</strong>                        </p>
+                </div>
+                <div class="col-md-4 item"><i class="fa fa-smile-o"></i>
+                    <h2>Service livraison </h2>
+                    <p><strong>Plus encore, elle permet d’être servie sans se déplacer&nbsp;: il suffit de commander en ligne ou par téléphone. Il s’agit de son service de&nbsp;livraison. Il est disponible du lundi au samedi de 10h à 20h.</strong> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container site-section" id="welcome">
+        <h1>Gallery </h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="ill_947089_bigmac.jpg" target="_blank" data-lightbox="gastro"><img class="img-responsive" src="assets/img/ill_947089_bigmac.jpg"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="pizza 1.jpeg" target="_blank" data-lightbox="gastro"><img class="img-responsive" src="assets/img/pizza 1.jpeg"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="gastro-pizza-analakely6.jpg" target="_blank" data-lightbox="gastro"><img class="img-responsive" src="assets/img/gastro-pizza-analakely6.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 footer-navigation">
+                <h3><a href="#">La GASTRO PIZZA</a></h3>
+                <p class="links"><a href="#">Jus naturel </a><strong> · </strong><a href="#">Assiette Big Love </a><strong> · </strong><a href="#">Granité </a><strong> · </strong><a href="#">Soupe Tamatave </a><strong> · </strong><a href="#">Pizza </a><strong> · </strong>
+                    <a
+                            href="#">Mine Sao , Frites en barquette</a>
+                </p>
+                <p class="company-name">Restaurant © 2015 </p>
+            </div>
+            <div class="col-md-4 col-sm-6 footer-contacts">
+                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                    <p><span class="new-line-span">21 Revolution Street</span> Madagascar à Tananarive</p>
+                </div>
+                <div><i class="fa fa-phone footer-contacts-icon"></i>
+                    <p class="footer-center-info email text-left"> +261341034356</p>
+                </div>
+                <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                    <p> <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=2ahUKEwi59OnzoqrfAhXN-6QKHRTPB48QFjAAegQIChAB&amp;url=https%3A%2F%2Fwww.lagastronomiepizza.com%2F&amp;usg=AOvVaw0IuYC6v6Tad78yUUjsUcSU">www.lagastronomiepizza.com</a></p>
+                </div>
+            </div>
+            <div class="clearfix visible-sm-block"></div>
+            <div class="col-md-4 footer-about">
+                <h4>Services </h4>
+                <p>Monday to Saturday at 08h-20h. </p>
+                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+            </div>
+        </div>
+    </footer>
+
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+
+    <script src="{{ asset('build/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('build/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+
+    </body>
+</html>
